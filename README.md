@@ -26,3 +26,20 @@ This project is built with:
 - React
 - shadcn-ui
 - Tailwind CSS
+
+Pushing into Github:
+
+```sh
+# Step 1:
+git checkout "<Name of Branch>"
+
+# Step 2:
+git add .
+git status
+
+# Step 3: 
+git commit -m "<Message Here>"
+
+# Step 4:
+git push -u origin "<Name of Branch / First Step>"
+```
