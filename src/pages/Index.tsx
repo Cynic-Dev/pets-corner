@@ -20,19 +20,19 @@ export default function Index() {
       icon: Scissors,
       title: 'Professional Grooming',
       description: 'Full-service grooming including bath, haircut, nail trim, and ear cleaning.',
-      price: 'From $25'
+      price: 'From ₱400'
     },
     {
       icon: Home,
       title: 'Boarding Services',
       description: 'Safe and comfortable overnight stays with 24/7 care and playtime.',
-      price: 'From $45/night'
+      price: 'From ₱250/day'
     },
     {
       icon: Truck,
       title: 'Pick-up Service',
       description: 'Convenient pick-up and drop-off service right at your doorstep.',
-      price: 'From $15'
+      price: 'From ₱150'
     },
   ];
 
@@ -56,17 +56,18 @@ export default function Index() {
           <div className="mx-auto max-w-3xl text-center">
             <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-2 text-sm font-medium text-primary">
               <Sparkles className="h-4 w-4" />
-              Premium Pet Care Services
+              Pet Supplies and Grooming Spa
             </div>
             
             <h1 className="mb-6 font-display text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl">
-              Where Every Pet Gets{' '}
-              <span className="gradient-text">Royal Treatment</span>
+              Where Pets Are{' '}
+              <span className="gradient-text">Family</span>
             </h1>
             
             <p className="mb-8 text-lg text-muted-foreground md:text-xl">
-              Professional grooming, cozy boarding, and love-filled care for your furry family members. 
-              Book your appointment today and give your pet the pampering they deserve.
+              At our shop, we treat your pets like our own — with grooming, boarding, 
+              and all the supplies they need to live happy and healthy lives. 
+              🐶🐱 Premium food. Quality care. Loving hands.
             </p>
             
             <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -135,7 +136,7 @@ export default function Index() {
       <section className="bg-secondary/50 py-20 md:py-28">
         <div className="container">
           <div className="mb-12 text-center">
-            <h2 className="mb-4 font-display text-3xl font-bold md:text-4xl">Why Choose PawCare?</h2>
+            <h2 className="mb-4 font-display text-3xl font-bold md:text-4xl">Why Choose Pets Corner?</h2>
             <p className="mx-auto max-w-2xl text-muted-foreground">
               We're not just a pet service — we're a family that cares about your furry friends as much as you do.
             </p>
@@ -165,7 +166,7 @@ export default function Index() {
             Ready to Pamper Your Pet?
           </h2>
           <p className="mx-auto mb-8 max-w-xl opacity-90">
-            Join our family of happy pet parents and experience the PawCare difference today.
+            Join our family of happy pet parents and experience the Pets Corner difference today.
           </p>
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Button 

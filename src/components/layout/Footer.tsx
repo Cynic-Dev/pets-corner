@@ -12,7 +12,7 @@ export function Footer() {
               <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary text-primary-foreground">
                 <PawPrint className="h-5 w-5" />
               </div>
-              PawCare
+              Pets Corner
             </Link>
             <p className="text-sm text-muted-foreground">
               Premium pet grooming and boarding services. Your pet's happiness is our priority.
@@ -46,22 +46,22 @@ export function Footer() {
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li className="flex items-center gap-2">
                 <Phone className="h-4 w-4 text-primary" />
-                (555) 123-4567
+                (045) 887 6020
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-primary" />
-                hello@pawcare.com
+                petscorner.est2024@gmail.com
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 text-primary mt-0.5" />
-                <span>123 Pet Street, Pawville, PC 12345</span>
+                <span>192 Purok 3, San Jose, City of San Fernando, Pampanga</span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="mt-8 border-t border-border pt-8 text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} PawCare. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Pets Corner. All rights reserved.</p>
         </div>
       </div>
     </footer>

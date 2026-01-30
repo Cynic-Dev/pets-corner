@@ -35,7 +35,7 @@ export function Navbar() {
           <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary text-primary-foreground">
             <PawPrint className="h-5 w-5" />
           </div>
-          <span className="hidden sm:inline">PawCare</span>
+          <span className="hidden sm:inline">Pets Corner</span>
         </Link>
 
         {/* Desktop Navigation */}
